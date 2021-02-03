@@ -1,0 +1,99 @@
+Archive Project report for ECEN3002_Lab2
+Wed Feb 03 15:57:08 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Feb 03 15:57:08 2021 ;
+; Revision Name          ; ECEN3002_Lab2                         ;
+; Top-level Entity Name  ; ECEN3002_Lab2                         ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/nickw/Desktop/ECEN_3002_FPGA_VLSI/ECEN3002_Lab2_NIWR9446/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/nickw/Desktop/ECEN_3002_FPGA_VLSI/ECEN3002_Lab2_NIWR9446/quartus/ECEN3002_Lab2_niwr9446.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'ECEN3002_Lab2.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Wed Feb 03 15:57:08 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------------+
+; Files Archived                                                                            ;
++-------------------------------------------------------------------------------------------+
+; File Name                                                                                 ;
++-------------------------------------------------------------------------------------------+
+; ../script.tcl                                                                             ;
+; ../source/ECEN3002_Lab2.sv                                                                ;
+; C:/Users/nickw/Desktop/ECEN_3002_FPGA_VLSI/ECEN3002_Lab2_NIWR9446/script.tcl              ;
+; C:/Users/nickw/Desktop/ECEN_3002_FPGA_VLSI/ECEN3002_Lab2_NIWR9446/source/ECEN3002_Lab2.sv ;
+; ECEN3002_Lab2.qpf                                                                         ;
+; ECEN3002_Lab2.qsf                                                                         ;
+; ECEN3002_Lab2.SDC                                                                         ;
+; ECEN3002_Lab2.sdc                                                                         ;
+; ECEN3002_Lab2_assignment_defaults.qdf                                                     ;
+; ISSP_KEY/synthesis/../../ISSP_KEY.qsys                                                    ;
+; ISSP_KEY/synthesis/../../ISSP_KEY.sopcinfo                                                ;
+; ISSP_KEY/synthesis/../ISSP_KEY.cmp                                                        ;
+; ISSP_KEY/synthesis/ISSP_KEY.debuginfo                                                     ;
+; ISSP_KEY/synthesis/ISSP_KEY.qip                                                           ;
+; ISSP_KEY/synthesis/ISSP_KEY.v                                                             ;
+; ISSP_KEY/synthesis/submodules/altsource_probe_top.v                                       ;
+; ISSP_SW/synthesis/../../ISSP_SW.qsys                                                      ;
+; ISSP_SW/synthesis/../../ISSP_SW.sopcinfo                                                  ;
+; ISSP_SW/synthesis/../ISSP_SW.cmp                                                          ;
+; ISSP_SW/synthesis/ISSP_SW.debuginfo                                                       ;
+; ISSP_SW/synthesis/ISSP_SW.qip                                                             ;
+; ISSP_SW/synthesis/ISSP_SW.v                                                               ;
+; ISSP_SW/synthesis/submodules/altsource_probe_top.v                                        ;
++-------------------------------------------------------------------------------------------+
+
+

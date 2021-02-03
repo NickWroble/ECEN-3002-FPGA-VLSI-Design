@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\nickw\Desktop\ECEN_3002_FPGA_VLSI\ECEN3002_Lab2_NIWR9446\quartus\ISSP_KEY.qsys --block-symbol-file --output-directory=C:\Users\nickw\Desktop\ECEN_3002_FPGA_VLSI\ECEN3002_Lab2_NIWR9446\quartus\ISSP_KEY --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading quartus/ISSP_KEY.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 20.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\nickw\Desktop\ECEN_3002_FPGA_VLSI\ECEN3002_Lab2_NIWR9446\quartus\ISSP_KEY.qsys --synthesis=VERILOG --output-directory=C:\Users\nickw\Desktop\ECEN_3002_FPGA_VLSI\ECEN3002_Lab2_NIWR9446\quartus\ISSP_KEY\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading quartus/ISSP_KEY.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 20.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ISSP_KEY: Generating ISSP_KEY "ISSP_KEY" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "ISSP_KEY" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: ISSP_KEY: Done "ISSP_KEY" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
