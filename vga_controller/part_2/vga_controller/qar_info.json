@@ -1,0 +1,7 @@
+{
+	"common_dir" : "C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/",
+	"acds_version" : "Version 20.1.1",
+	"platform" : "windows",
+	"os" : "Windows 10",
+	"qpf" : "quartus/vga_controller.qpf"
+}
