@@ -1,0 +1,165 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/simulation/modelsim
+vtb
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1614206752
+!i10b 1
+!s100 RFcd`HE_MOFVRm<4`JhRb3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVTfh`No[15c`L^dCIVi0<2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1613941616
+8C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv
+FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv
+!i122 6
+L0 3 38
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1614206751.000000
+!s107 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv|
+!i113 1
+Z6 o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source
+Z7 tCvgOpt 0
+vvga_clock
+R1
+Z8 !s110 1614206751
+!i10b 1
+!s100 ]dez^IXMKD13W@i^:zdjM0
+R2
+IhQXMUYFg95aHBgc6S6dME0
+R3
+S1
+R0
+w1614206736
+8C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_clock.sv
+FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_clock.sv
+Z9 FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_parameters.svh
+!i122 5
+L0 2 114
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_parameters.svh|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_clock.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_clock.sv|
+!i113 1
+R6
+Z10 !s92 -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source
+R7
+vvga_controller
+R1
+R8
+!i10b 1
+!s100 gXd2jzJkfl<oeXz1JoR3m3
+R2
+I6o8BYBa]l4YC]b2lZ@Y7Y1
+R3
+S1
+R0
+w1613880928
+8C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv
+FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv
+!i122 2
+L0 2 85
+R4
+r1
+!s85 0
+31
+Z11 !s108 1614206750.000000
+!s107 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv|
+!i113 1
+R6
+R10
+R7
+vvga_pixel_gen
+R1
+R8
+!i10b 1
+!s100 kR]U]6F7ijKE50PCg]FDk2
+R2
+IcBB_0Geaa:1V4Oz<9zPo;0
+R3
+S1
+R0
+w1614206742
+8C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv
+FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv
+R9
+!i122 3
+L0 3 150
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_parameters.svh|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv|
+!i113 1
+R6
+R10
+R7
+vvga_pll
+Z12 !s110 1614206750
+!i10b 1
+!s100 [Gll4fToLS:ia0zb`2i1O0
+R2
+I^8b2ZfCb3FONf@IX1P>j^3
+R3
+R0
+w1612468342
+8C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo
+FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo
+!i122 0
+L0 32 264
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo|
+!s90 -reportprogress|300|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo|
+!i113 1
+R7
+vvga_reset
+R1
+R12
+!i10b 1
+!s100 6z9PKEZ3IdGc:R35C3zT21
+R2
+IeodD0=HUNTUDbcAXmOU=[3
+R3
+S1
+R0
+w1613076821
+8C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv
+FC:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv
+!i122 1
+L0 1 28
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source|C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv|
+!i113 1
+R6
+R10
+R7

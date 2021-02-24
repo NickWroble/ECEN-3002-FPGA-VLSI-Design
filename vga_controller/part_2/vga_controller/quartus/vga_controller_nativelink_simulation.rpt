@@ -1,0 +1,22 @@
+Info: Start Nativelink Simulation process
+executing command line: ip-make-simscript --nativelink-mode --output-directory=vga_controller_iputf_input --spd=C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll.spd 
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  RTL
+Family                :  cyclonev
+Quartus root          :  c:/intelfpga/20.1/quartus/bin64/
+Quartus sim root      :  c:/intelfpga/20.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  systemverilog
+Simulation Mode       :  GUI
+Sim Output File       :  
+Sim SDF file          :  
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/intelfpga/20.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Info: Spawning ModelSim-Altera Simulation software 
+Info: NativeLink simulation flow was successful

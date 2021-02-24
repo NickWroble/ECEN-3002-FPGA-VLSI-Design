@@ -1,0 +1,229 @@
+# Reading pref.tcl
+# do vga_controller_run_msim_rtl_systemverilog.do
+# if ![file isdirectory vga_controller_iputf_libs] {
+# 	file mkdir vga_controller_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Feb 24,2021
+# vlog -reportprogress 300 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo 
+# -- Compiling module vga_pll
+# 
+# Top level modules:
+# 	vga_pll
+# End time: 15:45:26 on Feb 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv 
+# -- Compiling module vga_reset
+# 
+# Top level modules:
+# 	vga_reset
+# End time: 15:45:26 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 15:45:26 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv 
+# -- Compiling module vga_pixel_gen
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(31): (vlog-2730) Undefined variable: 'BOX_WIDTH_1'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(31): (vlog-2730) Undefined variable: 'BOX_HEIGHT_1'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(34): (vlog-2730) Undefined variable: 'BOX_WIDTH_2'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(34): (vlog-2730) Undefined variable: 'BOX_HEIGHT_2'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(81): (vlog-2730) Undefined variable: 'H_ACTIVE_PIXEL_COUNT'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(94): (vlog-2730) Undefined variable: 'V_ACTIVE_LINE_COUNT'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(107): (vlog-2730) Undefined variable: 'H_ACTIVE_PIXEL_COUNT'.
+# ** Error: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv(120): (vlog-2730) Undefined variable: 'V_ACTIVE_LINE_COUNT'.
+# End time: 15:45:27 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./vga_controller_run_msim_rtl_systemverilog.do line 21
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users..."
+do vga_controller_run_msim_rtl_systemverilog.do
+# if ![file isdirectory vga_controller_iputf_libs] {
+# 	file mkdir vga_controller_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:50 on Feb 24,2021
+# vlog -reportprogress 300 C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo 
+# -- Compiling module vga_pll
+# 
+# Top level modules:
+# 	vga_pll
+# End time: 15:45:50 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:50 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_reset.sv 
+# -- Compiling module vga_reset
+# 
+# Top level modules:
+# 	vga_reset
+# End time: 15:45:50 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:50 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 15:45:51 on Feb 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:51 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_pixel_gen.sv 
+# -- Compiling module vga_pixel_gen
+# 
+# Top level modules:
+# 	vga_pixel_gen
+# End time: 15:45:51 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:51 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:45:51 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_clock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:51 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/source/vga_clock.sv 
+# -- Compiling module vga_clock
+# 
+# Top level modules:
+# 	vga_clock
+# End time: 15:45:51 on Feb 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source {C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:51 on Feb 24,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source" C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:45:52 on Feb 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 15:45:52 on Feb 24,2021
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.vga_controller
+# Loading work.vga_clock
+# Loading work.vga_pll
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.vga_pixel_gen
+# Loading work.vga_reset
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'vga_pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/clock_gen/pll_gen/vga_pll_altera_pll_altera_pll_i_639 File: C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/vga_pll_sim/vga_pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.clock_gen.pll_gen.vga_pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.clock_gen.pll_gen.vga_pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.clock_gen.pll_gen.vga_pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv(36)
+#    Time: 0 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/nickw/Documents/GitHub/ECEN-3002/ECEN-3002-FPGA-VLSI_Design/vga_controller/part_2/vga_controller/quartus/../source/tb.sv line 36
+# End time: 15:46:13 on Feb 24,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 22
