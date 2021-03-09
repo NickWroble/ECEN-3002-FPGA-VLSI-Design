@@ -1,0 +1,15 @@
+I = imread('watermelon.png');
+
+imshow(I)
+I(1, 1, :)
+I(2, 2, :)
+fid = fopen('ny.mif','wt');
+for y = 0:7 %vertical pixels
+    for x = 0:7 %horizontal pixels
+        fprintf(fid, "[%d] : %d, %D, %d\n");
+        fprintf(, x + 8*y, I(x + 1, y + 1, 1), I(x + 1, y + 1, 2), I(x + 1, y + 1, 3));
+    end
+end
+
+
+fclose(fid);
