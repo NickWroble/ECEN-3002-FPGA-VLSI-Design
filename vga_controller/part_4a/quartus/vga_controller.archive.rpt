@@ -1,5 +1,5 @@
 Archive Project report for vga_controller
-Tue Mar 09 13:09:24 2021
+Tue Mar 09 18:59:01 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -36,7 +36,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Tue Mar 09 13:09:24 2021 ;
+; Archive Project Status ; Successful - Tue Mar 09 18:59:01 2021 ;
 ; Revision Name          ; vga_controller                        ;
 ; Top-level Entity Name  ; vga_controller                        ;
 ; Family                 ; Cyclone V                             ;
@@ -54,16 +54,16 @@ Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/quartus/vga_controller_4a.qar'
+Info: Generated archive 'C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/quartus/niwr9446_vga_controller_4a.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'vga_controller.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4823 megabytes
-    Info: Processing ended: Tue Mar 09 13:09:24 2021
+    Info: Peak virtual memory: 4828 megabytes
+    Info: Processing ended: Tue Mar 09 18:59:01 2021
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
@@ -78,6 +78,8 @@ Info: Quartus Prime Shell was successful. 0 errors, 1 warning
 ; ../source/vga_pixel_gen.sv                                                                                              ;
 ; ../source/vga_pixel_gen_rom.sv                                                                                          ;
 ; ../source/vga_reset.sv                                                                                                  ;
+; ../watermelon.m                                                                                                         ;
+; ../watermelon.png                                                                                                       ;
 ; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/image.mif            ;
 ; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/tb.sv                ;
 ; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_clock.sv         ;
@@ -86,6 +88,8 @@ Info: Quartus Prime Shell was successful. 0 errors, 1 warning
 ; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_pixel_gen.sv     ;
 ; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_pixel_gen_rom.sv ;
 ; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_reset.sv         ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/watermelon.m                ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/watermelon.png              ;
 ; Chain1.cdf                                                                                                              ;
 ; image.qip                                                                                                               ;
 ; image.v                                                                                                                 ;

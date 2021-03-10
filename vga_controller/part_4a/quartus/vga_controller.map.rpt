@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vga_controller
-Tue Mar 09 12:58:26 2021
+Tue Mar 09 18:57:16 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -57,7 +57,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Mar 09 12:58:26 2021           ;
+; Analysis & Synthesis Status     ; Successful - Tue Mar 09 18:57:16 2021           ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Standard Edition ;
 ; Revision Name                   ; vga_controller                                  ;
 ; Top-level Entity Name           ; vga_controller                                  ;
@@ -235,14 +235,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 185                      ;
+; Estimate of Logic utilization (ALMs needed) ; 182                      ;
 ;                                             ;                          ;
-; Combinational ALUT usage for logic          ; 265                      ;
+; Combinational ALUT usage for logic          ; 261                      ;
 ;     -- 7 input functions                    ; 3                        ;
-;     -- 6 input functions                    ; 73                       ;
-;     -- 5 input functions                    ; 45                       ;
-;     -- 4 input functions                    ; 42                       ;
-;     -- <=3 input functions                  ; 102                      ;
+;     -- 6 input functions                    ; 71                       ;
+;     -- 5 input functions                    ; 39                       ;
+;     -- 4 input functions                    ; 47                       ;
+;     -- <=3 input functions                  ; 101                      ;
 ;                                             ;                          ;
 ; Dedicated logic registers                   ; 170                      ;
 ;                                             ;                          ;
@@ -257,8 +257,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                          ;
 ; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                             ; 187                      ;
-; Total fan-out                               ; 2129                     ;
-; Average fan-out                             ; 3.82                     ;
+; Total fan-out                               ; 2108                     ;
+; Average fan-out                             ; 3.81                     ;
 +---------------------------------------------+--------------------------+
 
 
@@ -267,7 +267,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                        ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |vga_controller                                                                                                                         ; 265 (2)             ; 170 (0)                   ; 1536              ; 0          ; 44   ; 0            ; |vga_controller                                                                                                                                                                                                                                                                                                                                            ; vga_controller                    ; work         ;
+; |vga_controller                                                                                                                         ; 261 (2)             ; 170 (0)                   ; 1536              ; 0          ; 44   ; 0            ; |vga_controller                                                                                                                                                                                                                                                                                                                                            ; vga_controller                    ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 99 (1)              ; 86 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; sld_hub                           ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 98 (0)              ; 86 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; alt_sld_fab_with_jtag_input       ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 98 (0)              ; 86 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab                       ; alt_sld_fab  ;
@@ -276,11 +276,11 @@ https://fpgasoftware.intel.com/eula.
 ;                   |sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|                                                                        ; 97 (64)             ; 81 (53)                   ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub                           ; sld_jtag_hub                      ; work         ;
 ;                      |sld_rom_sr:hub_info_reg|                                                                                          ; 14 (14)             ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|sld_rom_sr:hub_info_reg   ; sld_rom_sr                        ; work         ;
 ;                      |sld_shadow_jsm:shadow_jsm|                                                                                        ; 19 (19)             ; 19 (19)                   ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|sld_shadow_jsm:shadow_jsm ; sld_shadow_jsm                    ; altera_sld   ;
-;    |vga_clock:clock_gen|                                                                                                                ; 39 (39)             ; 24 (24)                   ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|vga_clock:clock_gen                                                                                                                                                                                                                                                                                                                        ; vga_clock                         ; work         ;
+;    |vga_clock:clock_gen|                                                                                                                ; 41 (41)             ; 24 (24)                   ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|vga_clock:clock_gen                                                                                                                                                                                                                                                                                                                        ; vga_clock                         ; work         ;
 ;       |pll_720p:pll_gen|                                                                                                                ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|vga_clock:clock_gen|pll_720p:pll_gen                                                                                                                                                                                                                                                                                                       ; pll_720p                          ; pll_720p     ;
 ;          |pll_720p_0002:pll_720p_inst|                                                                                                  ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|vga_clock:clock_gen|pll_720p:pll_gen|pll_720p_0002:pll_720p_inst                                                                                                                                                                                                                                                                           ; pll_720p_0002                     ; pll_720p     ;
 ;             |altera_pll:altera_pll_i|                                                                                                   ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |vga_controller|vga_clock:clock_gen|pll_720p:pll_gen|pll_720p_0002:pll_720p_inst|altera_pll:altera_pll_i                                                                                                                                                                                                                                                   ; altera_pll                        ; work         ;
-;    |vga_pixel_gen_rom:pixel_gen|                                                                                                        ; 124 (83)            ; 57 (6)                    ; 1536              ; 0          ; 0    ; 0            ; |vga_controller|vga_pixel_gen_rom:pixel_gen                                                                                                                                                                                                                                                                                                                ; vga_pixel_gen_rom                 ; work         ;
+;    |vga_pixel_gen_rom:pixel_gen|                                                                                                        ; 118 (77)            ; 57 (6)                    ; 1536              ; 0          ; 0    ; 0            ; |vga_controller|vga_pixel_gen_rom:pixel_gen                                                                                                                                                                                                                                                                                                                ; vga_pixel_gen_rom                 ; work         ;
 ;       |image:get_image|                                                                                                                 ; 41 (0)              ; 51 (0)                    ; 1536              ; 0          ; 0    ; 0            ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image                                                                                                                                                                                                                                                                                                ; image                             ; work         ;
 ;          |altsyncram:altsyncram_component|                                                                                              ; 41 (0)              ; 51 (0)                    ; 1536              ; 0          ; 0    ; 0            ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                ; altsyncram                        ; work         ;
 ;             |altsyncram_6si1:auto_generated|                                                                                            ; 41 (0)              ; 51 (0)                    ; 1536              ; 0          ; 0    ; 0            ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated                                                                                                                                                                                                                                 ; altsyncram_6si1                   ; work         ;
@@ -359,15 +359,15 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                                                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |vga_controller|vga_clock:clock_gen|h_count[0]                                                                                                                                                                             ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[14]                                                  ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[4]                                        ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[4]                                                   ;
-; 4:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |vga_controller|vga_clock:clock_gen|v_count[9]                                                                                                                                                                             ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[0] ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |vga_controller|vga_clock:clock_gen|h_count[6]                                                                                                                                                                             ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[0]                                                   ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3]                                        ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[0]                                                   ;
+; 4:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |vga_controller|vga_clock:clock_gen|v_count[4]                                                                                                                                                                             ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[3] ;
 ; 18:1               ; 4 bits    ; 48 LEs        ; 36 LEs               ; 12 LEs                 ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[2]      ;
-; 10:1               ; 3 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|xpos[2]                                                                                                                                                                        ;
-; 10:1               ; 3 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|ypos[2]                                                                                                                                                                        ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|xpos[0]                                                                                                                                                                        ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |vga_controller|vga_pixel_gen_rom:pixel_gen|ypos[0]                                                                                                                                                                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -780,24 +780,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SCLR          ; 12                          ;
 ;     ENA SLD           ; 24                          ;
 ;     SCLR              ; 12                          ;
-; arriav_lcell_comb     ; 166                         ;
+; arriav_lcell_comb     ; 162                         ;
 ;     arith             ; 24                          ;
 ;         1 data inputs ; 24                          ;
 ;     extend            ; 2                           ;
 ;         7 data inputs ; 2                           ;
-;     normal            ; 140                         ;
+;     normal            ; 136                         ;
 ;         0 data inputs ; 2                           ;
-;         2 data inputs ; 16                          ;
-;         3 data inputs ; 11                          ;
-;         4 data inputs ; 27                          ;
-;         5 data inputs ; 26                          ;
-;         6 data inputs ; 58                          ;
+;         2 data inputs ; 12                          ;
+;         3 data inputs ; 14                          ;
+;         4 data inputs ; 32                          ;
+;         5 data inputs ; 20                          ;
+;         6 data inputs ; 56                          ;
 ; boundary_port         ; 71                          ;
 ; generic_pll           ; 1                           ;
 ; stratixv_ram_block    ; 24                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.66                        ;
+; Average LUT depth     ; 1.65                        ;
 +-----------------------+-----------------------------+
 
 
@@ -816,7 +816,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
-    Info: Processing started: Tue Mar 09 12:57:59 2021
+    Info: Processing started: Tue Mar 09 18:56:51 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_controller -c vga_controller
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -846,7 +846,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file pll_108
 Info (12021): Found 1 design units, including 1 entities, in source file image.v
     Info (12023): Found entity 1: image File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/quartus/image.v Line: 40
 Info (12127): Elaborating entity "vga_controller" for the top level hierarchy
-Info (12128): Elaborating entity "vga_clock" for hierarchy "vga_clock:clock_gen" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 42
+Info (12128): Elaborating entity "vga_clock" for hierarchy "vga_clock:clock_gen" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 41
 Warning (10230): Verilog HDL assignment warning at vga_clock.sv(41): truncated value with size 32 to match size of target (12) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_clock.sv Line: 41
 Warning (10230): Verilog HDL assignment warning at vga_clock.sv(52): truncated value with size 32 to match size of target (12) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_clock.sv Line: 52
 Warning (10240): Verilog HDL Always Construct warning at vga_clock.sv(57): inferring latch(es) for variable "h_sync", which holds its previous value in one or more paths through the always construct File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_clock.sv Line: 57
@@ -919,7 +919,7 @@ Info (12133): Instantiated megafunction "vga_clock:clock_gen|pll_720p:pll_gen|pl
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "vga_pixel_gen_rom" for hierarchy "vga_pixel_gen_rom:pixel_gen" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 46
+Info (12128): Elaborating entity "vga_pixel_gen_rom" for hierarchy "vga_pixel_gen_rom:pixel_gen" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 45
 Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(58): truncated value with size 32 to match size of target (6) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_pixel_gen_rom.sv Line: 58
 Info (12128): Elaborating entity "image" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_pixel_gen_rom.sv Line: 39
 Info (12128): Elaborating entity "altsyncram" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/quartus/image.v Line: 82
@@ -959,9 +959,9 @@ Info (12133): Instantiated megafunction "vga_pixel_gen_rom:pixel_gen|image:get_i
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter" File: c:/intelfpga/20.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 302
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: c:/intelfpga/20.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 232
 Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_6si1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr" File: c:/intelfpga/20.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 799
-Info (12128): Elaborating entity "vga_reset" for hierarchy "vga_reset:reset" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 53
+Info (12128): Elaborating entity "vga_reset" for hierarchy "vga_reset:reset" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 52
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2021.03.09.12:58:14 Progress: Loading sld8a2d922e/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2021.03.09.18:57:05 Progress: Loading sld8a2d922e/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -985,8 +985,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file db/ip/s
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld8a2d922e/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/quartus/db/ip/sld8a2d922e/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "VGA_BLANK_N" is stuck at VCC File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 8
-    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 14
+    Warning (13410): Pin "VGA_BLANK_N" is stuck at VCC File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 7
+    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 13
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Warning (20013): Ignored 16 assignments for entity "pll_1080p" -- entity does not exist in design
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_1080p -sip pll_1080p.sip -library lib_pll_1080p was ignored
@@ -1004,30 +1004,30 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
 Warning: RST port on the PLL is not properly connected on instance vga_clock:clock_gen|pll_720p:pll_gen|pll_720p_0002:pll_720p_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga/20.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
     Info: Must be connected
 Warning (21074): Design contains 13 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
-    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
-    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 6
-Info (21057): Implemented 399 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 4
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 4
+    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 4
+    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 4
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv Line: 5
+Info (21057): Implemented 395 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
     Info (21059): Implemented 30 output pins
-    Info (21061): Implemented 325 logic cells
+    Info (21061): Implemented 321 logic cells
     Info (21064): Implemented 24 RAM segments
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 35 warnings
-    Info: Peak virtual memory: 4878 megabytes
-    Info: Processing ended: Tue Mar 09 12:58:26 2021
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:53
+    Info: Peak virtual memory: 4883 megabytes
+    Info: Processing ended: Tue Mar 09 18:57:16 2021
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:48
 
 
 +------------------------------------------+
