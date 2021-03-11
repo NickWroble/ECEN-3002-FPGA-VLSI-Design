@@ -1,5 +1,5 @@
 Archive Project report for vga_controller
-Tue Mar 09 18:59:01 2021
+Wed Mar 10 14:57:15 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -36,7 +36,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Tue Mar 09 18:59:01 2021 ;
+; Archive Project Status ; Successful - Wed Mar 10 14:57:15 2021 ;
 ; Revision Name          ; vga_controller                        ;
 ; Top-level Entity Name  ; vga_controller                        ;
 ; Family                 ; Cyclone V                             ;
@@ -60,10 +60,10 @@ Info: ----------------------------------------------------------
 Info: Generated report 'vga_controller.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4828 megabytes
-    Info: Processing ended: Tue Mar 09 18:59:01 2021
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Wed Mar 10 14:57:15 2021
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +-------------------------------------------------------------------------------------------------------------------------+

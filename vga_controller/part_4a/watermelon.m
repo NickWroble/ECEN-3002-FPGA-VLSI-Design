@@ -2,7 +2,7 @@ clc
 clear all 
 close all
 
-I = imread('watermelon.png');
+I = imread('reese.png');
 
 %imshow(I)
 
@@ -23,9 +23,9 @@ fprintf(fid,"%s\n\n", "CONTENT");
 fprintf(fid,"%s\n\n", "BEGIN");
 fprintf(fid,"%s\n\n", "% Red, Green, Blue %");
 
-for y = 0:7 %vertical pixels
-    for x = 0:7 %horizontal pixels
-        fprintf(fid, "%d : ", x + 8*y);
+for y = 0:179 %vertical pixels
+    for x = 0:379 %horizontal pixels
+        fprintf(fid, "%d : ", x + 380*y);
         fprintf(fid, "%s", dec2hex(I(y + 1, x + 1, 1), 2));
         fprintf(fid, "%s", dec2hex(I(y + 1, x + 1, 2), 2));
         fprintf(fid, "%s", dec2hex(I(y + 1, x + 1, 3), 2));
