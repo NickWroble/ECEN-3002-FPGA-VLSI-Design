@@ -337,11 +337,10 @@ set_global_assignment -name EDA_TEST_BENCH_NAME tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb -section_id tb
 set_global_assignment -name EDA_TEST_BENCH_FILE ../source/tb.sv -section_id tb
-set_global_assignment -name SOURCE_FILE ../watermelon.png
-set_global_assignment -name SOURCE_FILE ../watermelon.m
+set_global_assignment -name SOURCE_FILE ../source/png_to_mif.m
+set_global_assignment -name SOURCE_FILE ../source/reese.png
 set_global_assignment -name SYSTEMVERILOG_FILE ../source/vga_pixel_gen_rom.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../source/vga_reset.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source/vga_pixel_gen.sv
 set_global_assignment -name SOURCE_FILE ../source/vga_parameters.svh
 set_global_assignment -name SYSTEMVERILOG_FILE ../source/vga_controller.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../source/vga_clock.sv

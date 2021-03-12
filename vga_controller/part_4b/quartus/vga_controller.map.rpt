@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vga_controller
-Thu Mar 11 16:09:17 2021
+Thu Mar 11 19:29:23 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -57,7 +57,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Mar 11 16:09:17 2021           ;
+; Analysis & Synthesis Status     ; Successful - Thu Mar 11 19:29:23 2021           ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Standard Edition ;
 ; Revision Name                   ; vga_controller                                  ;
 ; Top-level Entity Name           ; vga_controller                                  ;
@@ -824,7 +824,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
-    Info: Processing started: Thu Mar 11 16:08:47 2021
+    Info: Processing started: Thu Mar 11 19:28:55 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_controller -c vga_controller
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -832,8 +832,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
     Info (12023): Found entity 1: vga_pixel_gen_rom File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /users/nickw/documents/github/ecen_3002/ecen_3002_fpga_vlsi_design/vga_controller/part_4b/source/vga_reset.sv
     Info (12023): Found entity 1: vga_reset File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_reset.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /users/nickw/documents/github/ecen_3002/ecen_3002_fpga_vlsi_design/vga_controller/part_4b/source/vga_pixel_gen.sv
-    Info (12023): Found entity 1: vga_pixel_gen File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file /users/nickw/documents/github/ecen_3002/ecen_3002_fpga_vlsi_design/vga_controller/part_4b/source/vga_controller.sv
     Info (12023): Found entity 1: vga_controller File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_controller.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file /users/nickw/documents/github/ecen_3002/ecen_3002_fpga_vlsi_design/vga_controller/part_4b/source/vga_clock.sv
@@ -928,17 +926,10 @@ Info (12133): Instantiated megafunction "vga_clock:clock_gen|pll_720p:pll_gen|pl
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
 Info (12128): Elaborating entity "vga_pixel_gen_rom" for hierarchy "vga_pixel_gen_rom:pixel_gen" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_controller.sv Line: 45
-Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(64): truncated value with size 32 to match size of target (16) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 64
-Warning (10935): Verilog HDL Casex/Casez warning at vga_pixel_gen_rom.sv(63): casex/casez item expression overlaps with a previous casex/casez item expression File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 63
-Warning (10763): Verilog HDL warning at vga_pixel_gen_rom.sv(60): case statement has overlapping case item expressions with non-constant or don't care bits - unable to check case statement for completeness File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 60
-Warning (10270): Verilog HDL Case Statement warning at vga_pixel_gen_rom.sv(60): incomplete case statement has no default case item File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 60
-Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(72): truncated value with size 32 to match size of target (9) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 72
-Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(79): truncated value with size 32 to match size of target (8) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 79
-Warning (10646): Verilog HDL Event Control warning at vga_pixel_gen_rom.sv(82): posedge or negedge of vector "h_counter" depends solely on its least-significant bit File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 82
-Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(83): truncated value with size 32 to match size of target (1) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 83
-Warning (10646): Verilog HDL Event Control warning at vga_pixel_gen_rom.sv(86): posedge or negedge of vector "v_counter" depends solely on its least-significant bit File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 86
-Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(87): truncated value with size 32 to match size of target (1) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 87
-Info (12128): Elaborating entity "image" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 44
+Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(56): truncated value with size 32 to match size of target (16) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 56
+Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(65): truncated value with size 32 to match size of target (9) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 65
+Warning (10230): Verilog HDL assignment warning at vga_pixel_gen_rom.sv(72): truncated value with size 32 to match size of target (8) File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 72
+Info (12128): Elaborating entity "image" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv Line: 39
 Info (12128): Elaborating entity "altsyncram" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/image.v Line: 82
 Info (12130): Elaborated megafunction instantiation "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/image.v Line: 82
 Info (12133): Instantiated megafunction "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/image.v Line: 82
@@ -987,7 +978,7 @@ Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy 
 Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "vga_pixel_gen_rom:pixel_gen|image:get_image|altsyncram:altsyncram_component|altsyncram_f2j1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr" File: c:/intelfpga/20.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 799
 Info (12128): Elaborating entity "vga_reset" for hierarchy "vga_reset:reset" File: C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_controller.sv Line: 52
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2021.03.11.16:09:05 Progress: Loading sld8a2d922e/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2021.03.11.19:29:11 Progress: Loading sld8a2d922e/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1049,11 +1040,11 @@ Info (21057): Implemented 696 device resources after synthesis - the final resou
     Info (21061): Implemented 454 logic cells
     Info (21064): Implemented 192 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 37 warnings
     Info: Peak virtual memory: 4912 megabytes
-    Info: Processing ended: Thu Mar 11 16:09:17 2021
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:56
+    Info: Processing ended: Thu Mar 11 19:29:23 2021
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:54
 
 
 +------------------------------------------+

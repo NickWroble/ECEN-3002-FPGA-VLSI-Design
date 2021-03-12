@@ -1,5 +1,5 @@
 Assembler report for vga_controller
-Thu Mar 11 16:46:36 2021
+Thu Mar 11 19:30:47 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Mar 11 16:46:36 2021 ;
+; Assembler Status      ; Successful - Thu Mar 11 19:30:47 2021 ;
 ; Revision Name         ; vga_controller                        ;
 ; Top-level Entity Name ; vga_controller                        ;
 ; Family                ; Cyclone V                             ;
@@ -47,38 +47,11 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------+---------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Assembler Settings                                                                                            ;
-+-----------------------------------------------------------------------------+----------------+----------------+
-; Option                                                                      ; Setting        ; Default Value  ;
-+-----------------------------------------------------------------------------+----------------+----------------+
-; Use smart compilation                                                       ; Off            ; Off            ;
-; Enable parallel Assembler and Timing Analyzer during compilation            ; On             ; On             ;
-; Enable compact report table                                                 ; Off            ; Off            ;
-; Generate compressed bitstreams                                              ; On             ; On             ;
-; Compression mode                                                            ; Off            ; Off            ;
-; Clock source for configuration device                                       ; Internal       ; Internal       ;
-; Clock frequency of the configuration device                                 ; 10 MHZ         ; 10 MHz         ;
-; Divide clock frequency by                                                   ; 1              ; 1              ;
-; Auto user code                                                              ; On             ; On             ;
-; Configuration device                                                        ; Auto           ; Auto           ;
-; Voltage output format                                                       ; Auto discovery ; Auto discovery ;
-; Configuration device auto user code                                         ; Off            ; Off            ;
-; Generate Tabular Text File (.ttf) For Target Device                         ; Off            ; Off            ;
-; Generate Raw Binary File (.rbf) For Target Device                           ; Off            ; Off            ;
-; Generate Hexadecimal (Intel-Format) Output File (.hexout) for Target Device ; Off            ; Off            ;
-; Hexadecimal Output File start address                                       ; 0              ; 0              ;
-; Hexadecimal Output File count direction                                     ; Up             ; Up             ;
-; Release clears before tri-states                                            ; Off            ; Off            ;
-; Auto-restart configuration after error                                      ; On             ; On             ;
-; Enable OCT_DONE                                                             ; Off            ; Off            ;
-; Use Checkered Pattern as Uninitialized RAM Content                          ; Off            ; Off            ;
-; Enable autonomous PCIe HIP mode                                             ; Off            ; Off            ;
-; Generate Serial Vector Format File (.svf) for Target Device                 ; Off            ; Off            ;
-; Generate a JEDEC STAPL Format File (.jam) for Target Device                 ; Off            ; Off            ;
-; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off            ; Off            ;
-; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; On             ; On             ;
-+-----------------------------------------------------------------------------+----------------+----------------+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
 
 
 +------------------------------------------------+
@@ -116,23 +89,13 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
-    Info: Processing started: Thu Mar 11 16:46:27 2021
-Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off vga_controller -c vga_controller
-Warning (20013): Ignored 16 assignments for entity "pll_1080p" -- entity does not exist in design
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_1080p -sip pll_1080p.sip -library lib_pll_1080p was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 20.1 -entity pll_1080p -sip pll_1080p.sip -library lib_pll_1080p was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity pll_1080p -sip pll_1080p.sip -library lib_pll_1080p was ignored
-Warning (20013): Ignored 317 assignments for entity "pll_1080p_0002" -- entity does not exist in design
-Warning (20013): Ignored 16 assignments for entity "vga_pll" -- entity does not exist in design
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity vga_pll -sip vga_pll.sip -library lib_vga_pll was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 20.1 -entity vga_pll -sip vga_pll.sip -library lib_vga_pll was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity vga_pll -sip vga_pll.sip -library lib_vga_pll was ignored
-Warning (20013): Ignored 317 assignments for entity "vga_pll_0002" -- entity does not exist in design
+    Info: Processing started: Thu Mar 11 19:30:38 2021
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off vga_controller -c vga_controller
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
-Info: Quartus Prime Assembler was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 4886 megabytes
-    Info: Processing ended: Thu Mar 11 16:46:36 2021
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4885 megabytes
+    Info: Processing ended: Thu Mar 11 19:30:47 2021
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:09
 

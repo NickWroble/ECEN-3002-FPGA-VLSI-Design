@@ -292,7 +292,7 @@ zdbfbclk <> <GND>
 
 
 |vga_controller|vga_pixel_gen_rom:pixel_gen
-rst => Decoder0.IN2
+rst => Equal0.IN5
 rst => always0.IN1
 clk => image:get_image.clk
 h_counter[0] => LessThan0.IN24

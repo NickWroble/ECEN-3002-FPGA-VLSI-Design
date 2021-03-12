@@ -1,0 +1,127 @@
+Archive Project report for vga_controller
+Wed Mar 10 14:57:15 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Mar 10 14:57:15 2021 ;
+; Revision Name          ; vga_controller                        ;
+; Top-level Entity Name  ; vga_controller                        ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/quartus/niwr9446_vga_controller_4a.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'vga_controller.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Wed Mar 10 14:57:15 2021
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                                          ;
++-------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                               ;
++-------------------------------------------------------------------------------------------------------------------------+
+; ../source/tb.sv                                                                                                         ;
+; ../source/vga_clock.sv                                                                                                  ;
+; ../source/vga_controller.sv                                                                                             ;
+; ../source/vga_parameters.svh                                                                                            ;
+; ../source/vga_pixel_gen.sv                                                                                              ;
+; ../source/vga_pixel_gen_rom.sv                                                                                          ;
+; ../source/vga_reset.sv                                                                                                  ;
+; ../watermelon.m                                                                                                         ;
+; ../watermelon.png                                                                                                       ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/image.mif            ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/tb.sv                ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_clock.sv         ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_controller.sv    ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_parameters.svh   ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_pixel_gen.sv     ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_pixel_gen_rom.sv ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/source/vga_reset.sv         ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/watermelon.m                ;
+; C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/watermelon.png              ;
+; Chain1.cdf                                                                                                              ;
+; image.qip                                                                                                               ;
+; image.v                                                                                                                 ;
+; image_bb.v                                                                                                              ;
+; pll_720p.cmp                                                                                                            ;
+; pll_720p.qip                                                                                                            ;
+; pll_720p.sip                                                                                                            ;
+; pll_720p.spd                                                                                                            ;
+; pll_720p.v                                                                                                              ;
+; pll_720p/pll_720p_0002.qip                                                                                              ;
+; pll_720p/pll_720p_0002.v                                                                                                ;
+; pll_720p_sim/pll_720p.vo                                                                                                ;
+; pll_1080p.cmp                                                                                                           ;
+; pll_1080p.qip                                                                                                           ;
+; pll_1080p.sip                                                                                                           ;
+; pll_1080p.spd                                                                                                           ;
+; pll_1080p.v                                                                                                             ;
+; pll_1080p/pll_1080p_0002.qip                                                                                            ;
+; pll_1080p/pll_1080p_0002.v                                                                                              ;
+; pll_1080p_sim/pll_1080p.vo                                                                                              ;
+; vga_controller.qpf                                                                                                      ;
+; vga_controller.qsf                                                                                                      ;
+; vga_controller.SDC                                                                                                      ;
+; vga_controller.sdc                                                                                                      ;
+; vga_controller_assignment_defaults.qdf                                                                                  ;
+; vga_pll.cmp                                                                                                             ;
+; vga_pll.qip                                                                                                             ;
+; vga_pll.sip                                                                                                             ;
+; vga_pll.spd                                                                                                             ;
+; vga_pll/vga_pll_0002.qip                                                                                                ;
+; vga_pll/vga_pll_0002.v                                                                                                  ;
+; vga_pll_sim/vga_pll.vo                                                                                                  ;
++-------------------------------------------------------------------------------------------------------------------------+
+
+
