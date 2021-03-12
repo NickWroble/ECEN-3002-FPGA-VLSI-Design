@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<simPackage>
- <file path="pll_1080p_sim/pll_1080p.vo" type="VERILOG" />
- <topLevel name="pll_1080p" />
- <deviceFamily name="cyclonev" />
-</simPackage>
