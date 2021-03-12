@@ -1,7 +1,0 @@
-{
-	"common_dir" : "C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4a/",
-	"acds_version" : "Version 20.1.1",
-	"platform" : "windows",
-	"os" : "Windows 10",
-	"qpf" : "quartus/vga_controller.qpf"
-}
