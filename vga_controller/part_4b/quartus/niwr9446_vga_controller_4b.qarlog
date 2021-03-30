@@ -1,7 +1,7 @@
 Quartus Prime Archive log --	C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/niwr9446_vga_controller_4b.qarlog
 
 Archive:	C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/niwr9446_vga_controller_4b.qar
-Date:		Thu Mar 11 19:32:03 2021
+Date:		Mon Mar 29 18:07:39 2021
 Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 	=========== Files Selected: ===========
@@ -38,15 +38,13 @@ C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_control
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/vga_pll/vga_pll_0002.v
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/vga_pll_sim/vga_pll.vo
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/image.mif
-C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/png_to_mif.m
-C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/reese.png
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/tb.sv
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_clock.sv
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_controller.sv
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_parameters.svh
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_pixel_gen_rom.sv
 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/source/vga_reset.sv
-	======= Total: 41 files to archive =======
+	======= Total: 39 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.

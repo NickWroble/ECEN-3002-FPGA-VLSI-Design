@@ -1,5 +1,5 @@
 EDA Netlist Writer report for vga_controller
-Thu Mar 11 19:31:03 2021
+Mon Mar 29 18:06:26 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Mar 11 19:31:03 2021 ;
+; EDA Netlist Writer Status ; Successful - Mon Mar 29 18:06:26 2021 ;
 ; Revision Name             ; vga_controller                        ;
 ; Top-level Entity Name     ; vga_controller                        ;
 ; Family                    ; Cyclone V                             ;
@@ -81,13 +81,13 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
-    Info: Processing started: Thu Mar 11 19:31:00 2021
+    Info: Processing started: Mon Mar 29 18:06:23 2021
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off vga_controller -c vga_controller
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file vga_controller.svo in folder "C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4852 megabytes
-    Info: Processing ended: Thu Mar 11 19:31:03 2021
+    Info: Peak virtual memory: 4866 megabytes
+    Info: Processing ended: Mon Mar 29 18:06:26 2021
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/simulation/modelsim
 vpll_720p_0002
-!s110 1615504205
+!s110 1617061685
 !i10b 1
 !s100 a@ajPPgT@SBb@L[U9J9f;2
 !s11b Dg1SIo80bB@j0V0VzS_@n1
 InZA4m5ZALQEV^UGgb]NhS3
 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1614747973
+w1615503726
 8C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/pll_720p/pll_720p_0002.v
 FC:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/pll_720p/pll_720p_0002.v
-!i122 44
+!i122 11
 L0 2 85
 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1615504205.000000
+!s108 1617061685.000000
 !s107 C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/pll_720p/pll_720p_0002.v|
 !s90 -reportprogress|300|-vlog01compat|-work|pll_720p|+incdir+C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/pll_720p|C:/Users/nickw/Documents/GitHub/ECEN_3002/ECEN_3002_FPGA_VLSI_Design/vga_controller/part_4b/quartus/pll_720p/pll_720p_0002.v|
 !i113 1

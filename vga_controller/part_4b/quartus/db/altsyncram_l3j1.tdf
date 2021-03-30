@@ -1,4 +1,4 @@
---altsyncram ACF_BLOCK_RAM_AND_MLAB_EQUIVALENT_PAUSED_READ_CAPABILITIES="CARE" ADDRESS_ACLR_A="NONE" CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" CLOCK_ENABLE_INPUT_A="BYPASS" CLOCK_ENABLE_OUTPUT_A="BYPASS" CYCLONEII_M4K_COMPATIBILITY="ON" DEVICE_FAMILY="Cyclone V" ENABLE_RUNTIME_MOD="YES" INIT_FILE="../source/image.mif" INSTANCE_NAME="NONE" LOW_POWER_MODE="AUTO" NUMWORDS_A=64 OPERATION_MODE="ROM" OUTDATA_ACLR_A="NONE" OUTDATA_REG_A="UNREGISTERED" WIDTH_A=24 WIDTH_BYTEENA_A=1 WIDTHAD_A=6 address_a clock0 q_a CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--altsyncram ACF_BLOCK_RAM_AND_MLAB_EQUIVALENT_PAUSED_READ_CAPABILITIES="CARE" ADDRESS_ACLR_A="NONE" CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" CLOCK_ENABLE_INPUT_A="BYPASS" CLOCK_ENABLE_OUTPUT_A="BYPASS" CYCLONEII_M4K_COMPATIBILITY="ON" DEVICE_FAMILY="Cyclone V" ENABLE_RUNTIME_MOD="YES" INIT_FILE="../source/image.mif" INSTANCE_NAME="NONE" LOW_POWER_MODE="AUTO" NUMWORDS_A=230400 OPERATION_MODE="ROM" OUTDATA_ACLR_A="NONE" OUTDATA_REG_A="UNREGISTERED" WIDTH_A=12 WIDTH_BYTEENA_A=1 WIDTHAD_A=18 address_a clock0 q_a CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
 --VERSION_BEGIN 20.1 cbx_altera_syncram_nd_impl 2020:11:11:17:06:45:SJ cbx_altsyncram 2020:11:11:17:06:45:SJ cbx_cycloneii 2020:11:11:17:06:45:SJ cbx_lpm_add_sub 2020:11:11:17:06:45:SJ cbx_lpm_compare 2020:11:11:17:06:45:SJ cbx_lpm_decode 2020:11:11:17:06:45:SJ cbx_lpm_mux 2020:11:11:17:06:45:SJ cbx_mgl 2020:11:11:17:08:38:SJ cbx_nadder 2020:11:11:17:06:46:SJ cbx_stratix 2020:11:11:17:06:46:SJ cbx_stratixii 2020:11:11:17:06:46:SJ cbx_stratixiii 2020:11:11:17:06:46:SJ cbx_stratixv 2020:11:11:17:06:46:SJ cbx_util_mgl 2020:11:11:17:06:46:SJ  VERSION_END
 
 
@@ -18,31 +18,31 @@
 --  https://fpgasoftware.intel.com/eula.
 
 
-FUNCTION altsyncram_r8k2 (address_a[5..0], address_b[5..0], clock0, clock1, data_b[23..0], wren_b)
-RETURNS ( q_a[23..0], q_b[23..0]);
-FUNCTION sld_mod_ram_rom (data_read[23..0])
+FUNCTION altsyncram_pnk2 (address_a[17..0], address_b[17..0], clock0, clock1, data_b[11..0], wren_b)
+RETURNS ( q_a[11..0], q_b[11..0]);
+FUNCTION sld_mod_ram_rom (data_read[11..0])
 WITH ( CVALUE, IS_DATA_IN_RAM, IS_READABLE, NODE_NAME, NUMWORDS, SHIFT_COUNT_BITS, WIDTH_WORD, WIDTHAD)
-RETURNS ( address[5..0], data_write[23..0], enable_write, tck_usr);
+RETURNS ( address[17..0], data_write[11..0], enable_write, tck_usr);
 
---synthesis_resources = M10K 2 sld_mod_ram_rom 1 
-SUBDESIGN altsyncram_6si1
+--synthesis_resources = lut 392 M10K 2 M10K 336 reg 10 sld_mod_ram_rom 1 
+SUBDESIGN altsyncram_l3j1
 ( 
-	address_a[5..0]	:	input;
+	address_a[17..0]	:	input;
 	clock0	:	input;
-	q_a[23..0]	:	output;
+	q_a[11..0]	:	output;
 ) 
 VARIABLE 
-	altsyncram1 : altsyncram_r8k2;
+	altsyncram1 : altsyncram_pnk2;
 	mgl_prim2 : sld_mod_ram_rom
 		WITH (
-			CVALUE = "000000000000000000000000",
+			CVALUE = "000000000000",
 			IS_DATA_IN_RAM = 1,
 			IS_READABLE = 1,
 			NODE_NAME = 0,
-			NUMWORDS = 64,
-			SHIFT_COUNT_BITS = 5,
-			WIDTH_WORD = 24,
-			WIDTHAD = 6
+			NUMWORDS = 230400,
+			SHIFT_COUNT_BITS = 4,
+			WIDTH_WORD = 12,
+			WIDTHAD = 18
 		);
 
 BEGIN 

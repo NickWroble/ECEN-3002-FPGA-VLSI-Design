@@ -39,26 +39,26 @@
 // synopsys translate_on
 module image (
 	address,
-	clk,
+	clock,
 	q);
 
-	input	[15:0]  address;
-	input	  clk;
-	output	[23:0]  q;
+	input	[17:0]  address;
+	input	  clock;
+	output	[11:0]  q;
 `ifndef ALTERA_RESERVED_QIS
 // synopsys translate_off
 `endif
-	tri1	  clk;
+	tri1	  clock;
 `ifndef ALTERA_RESERVED_QIS
 // synopsys translate_on
 `endif
 
-	wire [23:0] sub_wire0;
-	wire [23:0] q = sub_wire0[23:0];
+	wire [11:0] sub_wire0;
+	wire [11:0] q = sub_wire0[11:0];
 
 	altsyncram	altsyncram_component (
 				.address_a (address),
-				.clock0 (clk),
+				.clock0 (clock),
 				.q_a (sub_wire0),
 				.aclr0 (1'b0),
 				.aclr1 (1'b0),
@@ -72,7 +72,7 @@ module image (
 				.clocken1 (1'b1),
 				.clocken2 (1'b1),
 				.clocken3 (1'b1),
-				.data_a ({24{1'b1}}),
+				.data_a ({12{1'b1}}),
 				.data_b (1'b1),
 				.eccstatus (),
 				.q_b (),
@@ -88,12 +88,12 @@ module image (
 		altsyncram_component.intended_device_family = "Cyclone V",
 		altsyncram_component.lpm_hint = "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=NONE",
 		altsyncram_component.lpm_type = "altsyncram",
-		altsyncram_component.numwords_a = 57600,
+		altsyncram_component.numwords_a = 230400,
 		altsyncram_component.operation_mode = "ROM",
 		altsyncram_component.outdata_aclr_a = "NONE",
 		altsyncram_component.outdata_reg_a = "UNREGISTERED",
-		altsyncram_component.widthad_a = 16,
-		altsyncram_component.width_a = 24,
+		altsyncram_component.widthad_a = 18,
+		altsyncram_component.width_a = 12,
 		altsyncram_component.width_byteena_a = 1;
 
 
@@ -120,15 +120,15 @@ endmodule
 // Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 // Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
 // Retrieval info: PRIVATE: MIFfilename STRING "../source/image.mif"
-// Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "57600"
+// Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "230400"
 // Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 // Retrieval info: PRIVATE: RegAddr NUMERIC "1"
 // Retrieval info: PRIVATE: RegOutput NUMERIC "0"
 // Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 // Retrieval info: PRIVATE: SingleClock NUMERIC "1"
 // Retrieval info: PRIVATE: UseDQRAM NUMERIC "0"
-// Retrieval info: PRIVATE: WidthAddr NUMERIC "16"
-// Retrieval info: PRIVATE: WidthData NUMERIC "24"
+// Retrieval info: PRIVATE: WidthAddr NUMERIC "18"
+// Retrieval info: PRIVATE: WidthData NUMERIC "12"
 // Retrieval info: PRIVATE: rden NUMERIC "0"
 // Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 // Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
@@ -138,19 +138,19 @@ endmodule
 // Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone V"
 // Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=NONE"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
-// Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "57600"
+// Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "230400"
 // Retrieval info: CONSTANT: OPERATION_MODE STRING "ROM"
 // Retrieval info: CONSTANT: OUTDATA_ACLR_A STRING "NONE"
 // Retrieval info: CONSTANT: OUTDATA_REG_A STRING "UNREGISTERED"
-// Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "16"
-// Retrieval info: CONSTANT: WIDTH_A NUMERIC "24"
+// Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "18"
+// Retrieval info: CONSTANT: WIDTH_A NUMERIC "12"
 // Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
-// Retrieval info: USED_PORT: address 0 0 16 0 INPUT NODEFVAL "address[15..0]"
+// Retrieval info: USED_PORT: address 0 0 18 0 INPUT NODEFVAL "address[17..0]"
 // Retrieval info: USED_PORT: clock 0 0 0 0 INPUT VCC "clock"
-// Retrieval info: USED_PORT: q 0 0 24 0 OUTPUT NODEFVAL "q[23..0]"
-// Retrieval info: CONNECT: @address_a 0 0 16 0 address 0 0 16 0
+// Retrieval info: USED_PORT: q 0 0 12 0 OUTPUT NODEFVAL "q[11..0]"
+// Retrieval info: CONNECT: @address_a 0 0 18 0 address 0 0 18 0
 // Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
-// Retrieval info: CONNECT: q 0 0 24 0 @q_a 0 0 24 0
+// Retrieval info: CONNECT: q 0 0 12 0 @q_a 0 0 12 0
 // Retrieval info: GEN_FILE: TYPE_NORMAL image.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL image.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL image.cmp FALSE
