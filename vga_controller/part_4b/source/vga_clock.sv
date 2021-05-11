@@ -1,9 +1,7 @@
-module vga_clock(
+module VTC(
     input           rst,
     input           CLOCK_50,
 
-    output          clk,
-    output          pll_lock,
     output          vga_h_sync,
     output          vga_v_sync,
     output [11:0]   h_counter,
@@ -73,21 +71,21 @@ always @(*) begin //v_sync driver
             v_sync <= 0;
 end
 
- `ifdef highres
-    pll_1080p pll_gen(                  //generates 148 MHz clock
-            .refclk(    CLOCK_50),   //  refclk.clk
-            .rst(       1'b0),      //   reset.reset
-            .outclk_0(  clk), // outclk0.clk
-            .locked(    pll_lock)    //  locked.export
-    );
- `else
-    pll_720p pll_gen(                  //generates 74.25 MHz clock
-            .refclk(    CLOCK_50),   //  refclk.clk
-            .rst(       1'b0),      //   reset.reset
-            .outclk_0(  clk), // outclk0.clk
-            .locked(    pll_lock)    //  locked.export
-    );
- `endif
+//  `ifdef highres
+//     pll_1080p pll_gen(                  //generates 148 MHz clock
+//             .refclk(    CLOCK_50),   //  refclk.clk
+//             .rst(       1'b0),      //   reset.reset
+//             .outclk_0(  clk), // outclk0.clk
+//             .locked(    pll_lock)    //  locked.export
+//     );
+//  `else
+//     pll_720p pll_gen(                  //generates 74.25 MHz clock
+//             .refclk(    CLOCK_50),   //  refclk.clk
+//             .rst(       1'b0),      //   reset.reset
+//             .outclk_0(  clk), // outclk0.clk
+//             .locked(    pll_lock)    //  locked.export
+//     );
+//  `endif
 //=======================================================
 //  Submodule instantiation
 //=======================================================
